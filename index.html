@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,9 +39,104 @@
     }
   </style>
   <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto">
+      <!-- Banner section starts -->
+      <section>
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row">
+            <div>
+              <h1 class="text-5xl font-bold">
+                It's good <br />
+                tea time at The <br />
+                Tea House
+              </h1>
+              <p class="py-6">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                To Your Taste Buds.
+              </p>
+              <button class="btn btn-primary">Explore More</button>
+            </div>
+            <div>
+              <img src="/images/banner.png" class="" />
+              <!-- Badge -->
+              <div
+                class="-mt-20 flex items-center gap-3 w-64 drop-shadow-lg rounded-xl p-5 bg-white"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="38"
+                  viewBox="0 0 40 38"
+                  fill="none"
+                >
+                  <path
+                    d="M38.4416 13.778L25.9033 12.6152L20.9228 1.04987C20.574 0.240051 19.4259 0.240051 19.0772 1.04987L14.0966 12.6151L1.5584 13.778C0.680431 13.8594 0.32568 14.9514 0.988025 15.5333L10.4482 23.8439L7.67963 36.1279C7.48575 36.988 8.41472 37.6629 9.17279 37.2128L20 30.7838L30.8272 37.2128C31.5854 37.663 32.5141 36.988 32.3204 36.1279L29.5517 23.8439L39.012 15.5333C39.6743 14.9514 39.3195 13.8594 38.4416 13.778Z"
+                    fill="#FFDC64"
+                  />
+                </svg>
+                <div>
+                  <h3 class="text-3xl font-extrabold">5.00</h3>
+                  <p class="text-base">Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
 
-    <main></main>
+    <main class="container mx-auto">
+      <!-- Featured Products start -->
+      <section class="text-center my-36">
+        <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
+        <p class="lg:max-w-4xl mx-auto mt-5 mb-12">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- card group -->
+        <div
+          class="px-10 md:px-32 mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
+          <div class="card bg-slate-100">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card bg-slate-100">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card bg-slate-100">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card bg-slate-100">
+            <figure class="px-10 pt-10">
+              <img src="/images/tea-4.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>

@@ -26,7 +26,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              "gradient-from": "#FF8938",
+              "gradient-to": "#F00",
             },
           },
         },
@@ -55,7 +56,7 @@
                 To Your Taste Buds.
               </p>
               <button
-                class="btn bg-gradient-to-r from-red-500 to-orange-500 text-white"
+                class="btn bg-gradient-to-r from-gradient-from to-gradient-to text-white"
               >
                 Explore More
               </button>
@@ -186,7 +187,7 @@
       <!-- Clients section -->
 
       <section
-        class="rounded-xl px-8 lg:px-20 py-24 container mx-auto bg-gradient-to-r from-[#FF8938] to-[#F00] flex items-center justify-around gap-12 lg:gap-56 flex-col lg:flex-row"
+        class="rounded-xl px-8 lg:px-20 py-24 container mx-auto bg-gradient-to-r from-gradient-from to-gradient-to flex items-center justify-around gap-12 lg:gap-56 flex-col lg:flex-row"
       >
         <div class="text-white lg:w-[440px]">
           <div class="space-y-5">
@@ -307,7 +308,9 @@
         </div>
         <div>
           <p>Ready to get started?</p>
-          <button class="block md:inline-block btn btn-primary">
+          <button
+            class="block md:inline-block btn bg-gradient-to-r from-gradient-from to-gradient-to text-white"
+          >
             Get Started
           </button>
         </div>
@@ -345,7 +348,9 @@
                 placeholder="username@site.com"
                 class="bg-transparent border-b-2 border-gray-950 outline-none"
               />
-              <button class="btn btn-primary rounded-full">
+              <button
+                class="btn bg-gradient-to-r from-gradient-from to-gradient-to text-white rounded-full"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
